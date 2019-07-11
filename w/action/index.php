@@ -1,6 +1,6 @@
 <?php 
 
-    require_once('../../temp/libs/Smarty.class.php');
+    require_once(dirname(dirname(dirname(__FILE__))).'\temp\libs\Smarty.class.php');
   
     $smarty = new Smarty;
     
@@ -11,9 +11,10 @@
     ////////////////* 以上設定檔 *////////////////
 
     ////////////////* 以 下 規 則 *////////////////
-    
-    $smarty->assign("test","內容"); //由後端傳送的的值
-    $smarty->assign("title","title測試");   //同上
+  
+    $smarty->assign("title","よろしく"); 
+
+    $smarty->assign("page","Heaven Timeless");
     
     $smarty->display('index.tpl');  //導到view頁面
 

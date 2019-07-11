@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2019-07-11 08:31:36
+/* Smarty version 3.1.33, created on 2019-07-11 09:16:58
   from 'C:\xampp\htdocs\heaven\w\view\footer.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5d26d7c8dc6897_15609026',
+  'unifunc' => 'content_5d26e26aefd113_48332354',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '7468d37a849d10f37c8ca9017ef2038b40cd34d5' => 
     array (
       0 => 'C:\\xampp\\htdocs\\heaven\\w\\view\\footer.tpl',
-      1 => 1562825699,
+      1 => 1562829418,
       2 => 'file',
     ),
   ),
@@ -20,8 +20,96 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5d26d7c8dc6897_15609026 (Smarty_Internal_Template $_smarty_tpl) {
-?></body>
-</html>
-<?php }
+function content_5d26e26aefd113_48332354 (Smarty_Internal_Template $_smarty_tpl) {
+?><div id="featured-wrapper">
+        <div id="featured" class="container">
+            <div class="major">
+                <h2>Maecenas lectus sapien</h2>
+                <span class="byline">Cras vitae metus aliquam risus pellentesque pharetra</span>
+            </div>
+            <div class="column1">
+                <span class="icon icon-bar-chart"></span>
+                <div class="title">
+                    <h2>Maecenas lectus sapien</h2>
+                    <span class="byline">Integer sit amet aliquet pretium</span>
+                </div>
+            </div>
+            <div class="column2">
+                <span class="icon icon-qrcode"></span>
+                <div class="title">
+                    <h2>Praesent scelerisque</h2>
+                    <span class="byline">Integer sit amet aliquet pretium</span>
+                </div>
+            </div>
+            <div class="column3">
+                <span class="icon icon-building"></span>
+                <div class="title">
+                    <h2>Fusce ultrices fringilla</h2>
+                    <span class="byline">Integer sit amet aliquet pretium</span>
+                </div>
+            </div>
+            <div class="column4">
+                <span class="icon icon-picture"></span>
+                <div class="title">
+                    <h2>Etiam posuere augue</h2>
+                    <span class="byline">Integer sit amet aliquet pretium</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="portfolio-wrapper">
+        <div id="portfolio" class="container">
+            <div class="major">
+                <h2>Suspendisse lacus turpis</h2>
+                <span class="byline">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</span>
+            </div>
+            <div class="column1">
+                <a href="#" class="image image-full"><img src="../sty/img/pic01.jpg" height="150" alt="" /></a>
+                <div class="box">
+                    <p>Etiam non felis. Donec ut ante. In id eros. Suspendisse lacus turpis, cursus egestas at sem. Mauris quam enim, molestie.</p>
+                    <a href="#" class="button">Read More</a>
+                </div>
+            </div>			
+            <div class="column2">
+                <a href="#" class="image image-full"><img src="../sty/img/pic02.jpg" height="150" alt="" /></a>
+                <div class="box">
+                    <p>Etiam non felis. Donec ut ante. In id eros. Suspendisse lacus turpis, cursus egestas at sem. Mauris quam enim, molestie.</p>
+                    <a href="#" class="button">Read More</a>
+                </div>
+            </div>			
+            <div class="column3">
+                <a href="#" class="image image-full"><img src="../sty/img/pic03.jpg" height="150" alt="" /></a>
+                <div class="box">
+                    <p>Etiam non felis. Donec ut ante. In id eros. Suspendisse lacus turpis, cursus egestas at sem. Mauris quam enim, molestie.</p>
+                    <a href="#" class="button">Read More</a>
+                </div>
+            </div>			
+            <div class="column4">
+                <a href="#" class="image image-full"><img src="../sty/img/pic04.jpg" height="150" alt="" /></a>
+                <div class="box">
+                    <p>Etiam non felis. Donec ut ante. In id eros. Suspendisse lacus turpis, cursus egestas at sem. Mauris quam enim, molestie.</p>
+                    <a href="#" class="button">Read More</a>
+                </div>
+            </div>			
+        </div>
+    </div>
+    <div id="contact" class="container">
+            <div class="major">
+                <h2>Get in touch</h2>
+                <span class="byline">Phasellus nec erat sit amet nibh pellentesque congue</span>
+            </div>
+            <ul class="contact">
+                <li><a href="#" class="icon icon-twitter"><span>Twitter</span></a></li>
+                <li><a href="#" class="icon icon-facebook"><span></span></a></li>
+                <li><a href="#" class="icon icon-dribbble"><span>Pinterest</span></a></li>
+                <li><a href="#" class="icon icon-tumblr"><span>Google+</span></a></li>
+                <li><a href="#" class="icon icon-rss"><span>Pinterest</span></a></li>
+            </ul>
+    </div>
+    <div id="copyright" class="container">
+        <p>&copy; Untitled. All rights reserved. | Photos by <a href="http://fotogrph.com/">Fotogrph</a> | Design by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>.</p>
+    </div>
+    </body>
+    </html>
+    <?php }
 }
